@@ -2,4 +2,5 @@ fastapi>=0.68.0
 unicorn>=0.15.0
 pydantic-settings>=2.0.0
 httpx>=0.23.0
-pytest>=7.0.0
+pytest>=7.0.
+#
