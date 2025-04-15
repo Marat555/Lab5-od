@@ -1,5 +1,8 @@
 from fastapi.testclient import TestClient
 
+import sys
+from pathlib import Path
+sys.path.append(str(Path(__file__).parent.parent))
 from src.main import app
 
 client = TestClient(app)
@@ -39,3 +42,5 @@ def test_create_user_with_invalid_email():
 def test_delete_user():
     '''Удаление пользователя'''
     pass
+
+#lalala
